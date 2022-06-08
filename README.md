@@ -58,7 +58,7 @@ Contoh: ```$routes->get('/', 'Home::index');``` Kode tersebut akan mengarahkan r
 ## Membuat Route Baru.
 Tambahkan kode berikut di dalam ```Routes.php```
 
-![14](https://user-images.githubusercontent.com/101863671/172451257-8a11fbd0-2346-4217-be8f-b5d08a7dac41.png)
+![14(2)](https://user-images.githubusercontent.com/101863671/172589873-03621699-647e-4761-9db1-75c9f68ffca2.png)
 
 Untuk mengetahui route yang ditambahkan sudah benar, buka CLI dan jalankan perintah berikut. ```php spark routes```
 
