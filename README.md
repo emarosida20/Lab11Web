@@ -188,8 +188,82 @@ Refresh kembali browser, sehingga akan ditampilkan hasilnya.
 ![9](https://user-images.githubusercontent.com/101863671/173552593-0eac72da-69c2-4a75-8682-589afd035bab.png)
 
 ## Membuat Tampilan Detail Artikel
-Tampilan pada saat judul berita di klik maka akan diarahkan ke halaman yang berbeda. Tambahkan fungsi baru pada ```Controller Artikel`` dengan nama ```view()```.
+Tampilan pada saat judul berita di klik maka akan diarahkan ke halaman yang berbeda. Tambahkan fungsi baru pada ```Controller Artikel``` dengan nama ```view()```.
+
 ![10](https://user-images.githubusercontent.com/101863671/173552964-deb807f1-2eee-42b6-9bfb-7e4785978cb0.png)
+
+## Membuat View Detail
+Buat view baru untuk halaman detail dengan nama ```app/views/artikel/detail.php```.
+
+![11](https://user-images.githubusercontent.com/101863671/173786268-f35f78e1-46e1-4462-9f43-127be6a5ac85.png)
+
+## Membuat Routing untuk artikel detail
+Buka Kembali file ```app/config/Routes.php```, kemudian tambahkan routing untuk artikel detail.
+
+![12 (2)](https://user-images.githubusercontent.com/101863671/173786526-3dfd8fa4-07a0-4ee2-998f-bc4b3a098558.png)
+
+Kemudian Refresh kembali
+
+![14](https://user-images.githubusercontent.com/101863671/173787507-64ac6af8-4d1d-4540-ac7f-348e59439c16.png)
+
+## Membuat Menu Admin
+Menu admin adalah untuk proses CRUD data artikel. Buat method baru pada ```Controller Artikel``` dengan nama ```admin_index()```.
+
+![15 (2)](https://user-images.githubusercontent.com/101863671/173787691-587cd6e1-d9ab-44ac-aa94-dacbc95eed1c.png)
+
+Selanjutnya buat view untuk tampilan admin dengan nama ```admin_index.php```
+
+![16 (2)](https://user-images.githubusercontent.com/101863671/173787907-a6a35122-5ae8-44ec-a901-f614790adbc0.png)
+
+![17 (2)](https://user-images.githubusercontent.com/101863671/173787947-db2694f1-90cb-4065-abdb-7951438e7eaf.png)
+
+Tambahkan routing untuk menu admin seperti berikut:
+
+![18 (2)](https://user-images.githubusercontent.com/101863671/173788031-6f47bd8d-0247-4475-8568-875f2e616dce.png)
+
+Akses menu admin dengan url http://localhost:8080/admin/artikel
+
+![26(2)](https://user-images.githubusercontent.com/101863671/173800345-b66cb750-a00f-4b41-a0a6-6a46ed920eb2.png)
+
+## Menambah Data Artikel
+Tambahkan fungsi/method baru pada ```Controller Artikel``` dengan nama ```add()```.
+
+![27 (2)](https://user-images.githubusercontent.com/101863671/173789043-60c7bef2-4b30-49d1-8973-ad5cbfee8b4e.png)
+
+Kemudian buat view untuk form tambah dengan nama ```form_add.php```
+
+![28 (2)](https://user-images.githubusercontent.com/101863671/173789401-9aec1fb8-7e8e-493e-abb5-9a3cb04adf85.png)
+
+Setelah itu klik tambah artikel maka tampilan nya seperti berikut.
+
+![29(2)](https://user-images.githubusercontent.com/101863671/173800577-9005df95-dcd3-47b1-a732-f8a4f46d6c59.png)
+
+## Mengubah Data
+Tambahkan fungsi/method baru pada ```Controller Artikel``` dengan nama ```edit()```.
+
+![30 (2)](https://user-images.githubusercontent.com/101863671/173795478-99fb7103-8160-457d-a945-9bd4e9046267.png)
+
+Kemudian buat view untuk form tambah dengan nama ```form_edit.php```
+
+![31 (2)](https://user-images.githubusercontent.com/101863671/173795793-0d363e3f-a42f-4d8e-824b-a1ae7cf2b10c.png)
+
+maka tampilan nya seperti ini
+
+![32(2)](https://user-images.githubusercontent.com/101863671/173801299-505dc04d-4cad-4a88-9c1e-00b013e543c9.png)
+
+## Menghapus Data
+Tambahkan fungsi/method baru pada ```Controller Artikel``` dengan nama ```delete()```.
+
+![33 (2)](https://user-images.githubusercontent.com/101863671/173797554-6166a038-5183-4417-bcf5-8fa8b9cda04f.png)
+
+maka tampilan nya seperti ini
+
+![34(2)](https://user-images.githubusercontent.com/101863671/173801643-818da87b-bcf5-4928-b262-d35ae335d899.png)
+
+# Pertanyaan dan Tugas
+## Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi.
+
+
 
 
 
