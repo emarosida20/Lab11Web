@@ -263,7 +263,28 @@ maka tampilan nya seperti ini
 # Pertanyaan dan Tugas
 ## Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi.
 
+Saya melengkapi file admin_header.php dan admin_footer.php serta CSSnya agar programnya bisa di run.
 
+- Admin_header.php
+
+![19](https://user-images.githubusercontent.com/101863671/173820554-355f0bc8-5e62-4cf0-96e6-bb9099190f3b.png)
+
+- Admin_footer.php
+
+![20 (2)](https://user-images.githubusercontent.com/101863671/173820717-103210ab-0e83-4993-bfe1-59b2bd67de19.png)
+
+- admin.css
+![21 (2)](https://user-images.githubusercontent.com/101863671/173822440-3ab6a999-6c80-44d2-861c-7680223ece08.png)
+
+![22 (2)](https://user-images.githubusercontent.com/101863671/173822461-357c2314-a7d2-4eae-890b-f57a2f46842c.png)
+
+![23 (2)](https://user-images.githubusercontent.com/101863671/173822473-bb288ebb-2913-48fd-b630-a9de8d3af609.png)
+
+![24 (2)](https://user-images.githubusercontent.com/101863671/173822487-87bbed93-cee1-41c9-81bb-c7470f0f45ba.png)
+
+![25 (2)](https://user-images.githubusercontent.com/101863671/173822503-a0c5fab1-4567-404a-8b1b-982fcf529c1d.png)
+
+![26(2)](https://user-images.githubusercontent.com/101863671/173822751-77451e39-8013-4111-a9ce-e40c36bf34af.png)
 
 
 
