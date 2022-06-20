@@ -223,7 +223,7 @@ Tambahkan routing untuk menu admin seperti berikut:
 
 Akses menu admin dengan url http://localhost:8080/admin/artikel
 
-![26(2)](https://user-images.githubusercontent.com/101863671/173800345-b66cb750-a00f-4b41-a0a6-6a46ed920eb2.png)
+![26](https://user-images.githubusercontent.com/101863671/174576643-af1c19d8-501b-4ea7-8b01-3de795192864.png)
 
 ## Menambah Data Artikel
 Tambahkan fungsi/method baru pada ```Controller Artikel``` dengan nama ```add()```.
@@ -236,7 +236,7 @@ Kemudian buat view untuk form tambah dengan nama ```form_add.php```
 
 Setelah itu klik tambah artikel maka tampilan nya seperti berikut.
 
-![29(2)](https://user-images.githubusercontent.com/101863671/173800577-9005df95-dcd3-47b1-a732-f8a4f46d6c59.png)
+![29](https://user-images.githubusercontent.com/101863671/174576387-e929675b-6d2a-4775-a9bf-4db1f8bbfbae.png)
 
 ## Mengubah Data
 Tambahkan fungsi/method baru pada ```Controller Artikel``` dengan nama ```edit()```.
@@ -249,7 +249,7 @@ Kemudian buat view untuk form tambah dengan nama ```form_edit.php```
 
 maka tampilan nya seperti ini
 
-![32(2)](https://user-images.githubusercontent.com/101863671/173801299-505dc04d-4cad-4a88-9c1e-00b013e543c9.png)
+![32](https://user-images.githubusercontent.com/101863671/174576080-36612cef-1cca-49ed-82ba-ed7766075ad6.png)
 
 ## Menghapus Data
 Tambahkan fungsi/method baru pada ```Controller Artikel``` dengan nama ```delete()```.
@@ -258,7 +258,7 @@ Tambahkan fungsi/method baru pada ```Controller Artikel``` dengan nama ```delete
 
 maka tampilan nya seperti ini
 
-![34(2)](https://user-images.githubusercontent.com/101863671/173801643-818da87b-bcf5-4928-b262-d35ae335d899.png)
+![34](https://user-images.githubusercontent.com/101863671/174575838-28d77c10-1b8c-4ea4-9f49-2b87e976ec53.png)
 
 # Pertanyaan dan Tugas
 ## Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi.
@@ -274,17 +274,92 @@ Saya melengkapi file admin_header.php dan admin_footer.php serta CSSnya agar pro
 ![20 (2)](https://user-images.githubusercontent.com/101863671/173820717-103210ab-0e83-4993-bfe1-59b2bd67de19.png)
 
 - admin.css
-![21 (2)](https://user-images.githubusercontent.com/101863671/173822440-3ab6a999-6c80-44d2-861c-7680223ece08.png)
 
-![22 (2)](https://user-images.githubusercontent.com/101863671/173822461-357c2314-a7d2-4eae-890b-f57a2f46842c.png)
+![21](https://user-images.githubusercontent.com/101863671/174575587-fcc5cb67-aff7-44ce-91f5-2d34a1dcc1d4.png)
 
-![23 (2)](https://user-images.githubusercontent.com/101863671/173822473-bb288ebb-2913-48fd-b630-a9de8d3af609.png)
+![22](https://user-images.githubusercontent.com/101863671/174575623-4131047d-ba1c-4cf3-8bbf-7a9d7f63a9b9.png)
 
-![24 (2)](https://user-images.githubusercontent.com/101863671/173822487-87bbed93-cee1-41c9-81bb-c7470f0f45ba.png)
+![23](https://user-images.githubusercontent.com/101863671/174575648-19d0227a-3d7a-4406-b85c-bb09b551b6d1.png)
 
-![25 (2)](https://user-images.githubusercontent.com/101863671/173822503-a0c5fab1-4567-404a-8b1b-982fcf529c1d.png)
+![24](https://user-images.githubusercontent.com/101863671/174575681-5d662f73-effa-47d4-af5a-bd1156cca257.png)
 
-![26(2)](https://user-images.githubusercontent.com/101863671/173822751-77451e39-8013-4111-a9ce-e40c36bf34af.png)
+![25](https://user-images.githubusercontent.com/101863671/174575717-554e4099-ac78-402b-9a11-8371154ac6a9.png)
+
+![26](https://user-images.githubusercontent.com/101863671/174575757-053ff7c5-42ee-467b-a722-38954b3e78a6.png)
+
+# Praktikum 13: Framework Lanjutan (Modul Login)
+
+## Langkah-langkah Praktikum
+Untuk memulai membuat modul Login, yang perlu disiapkan adalah database server menggunakan MySQL. Pastikan MySQL Server sudah dapat dijalankan melalui XAMPP.
+
+## Membuat Tabel User
+
+![1](https://user-images.githubusercontent.com/101863671/174578273-25996d58-0ff8-4e7f-aa33-16dd64713d5f.png)
+
+## Membuat Model User
+Selanjutnya adalah membuat Model untuk memproses data Login. Buat file baru pada direktori ```app/Models``` dengan nama ```UserModel.php```
+
+![2](https://user-images.githubusercontent.com/101863671/174578620-3330b744-9d84-4e74-bc8e-5a0d4ed7a375.png)
+
+## Membuat Controller User
+Buat Controller baru dengan nama ```User.php``` pada direktori ```app/Controllers```. Kemudian tambahkan method ```index()``` untuk menampilkan daftar user, dan method ```login()``` untuk proses login.
+
+![3](https://user-images.githubusercontent.com/101863671/174579179-2f1c28b4-dcc5-4d6b-a0fa-4970f689829e.png)
+
+![4](https://user-images.githubusercontent.com/101863671/174579202-c4be2277-5ab9-4b41-a66c-80d97d6f3890.png)
+
+## Membuat View Login
+Buat direktori baru dengan nama ```user``` pada direktori ```app/views```, kemudian buat file baru dengan nama ```login.php```.
+
+![5](https://user-images.githubusercontent.com/101863671/174579395-5e093143-c78a-4b72-acc4-9c6e773f4663.png)
+
+## Membuat Database Seeder
+Database seeder digunakan untuk membuat data dummy. Untuk keperluan ujicoba modul login, kita perlu memasukkan data user dan password kedaalam database. Untuk itu buat database seeder untuk tabel user. Buka CLI, kemudian tulis perintah berikut:
+
+![6](https://user-images.githubusercontent.com/101863671/174579497-089b6566-c14c-4045-9fce-c598129ddcd6.png)
+
+Selanjutnya, buka file ```UserSeeder.php``` yang berada di lokasi direktori ```/app/Database/Seeds/UserSeeder.php``` kemudian isi dengan kode berikut:
+
+![7](https://user-images.githubusercontent.com/101863671/174579732-43bed28a-9d3b-4b92-bc44-22000cb9ef9c.png)
+
+Selanjutnya buka kembali CLI dan ketik perintah berikut:
+
+![8](https://user-images.githubusercontent.com/101863671/174579992-ba34bc79-416a-4967-b1c3-0274c9ec28b2.png)
+
+## Uji Coba Login
+
+Selanjutnya buka url http://localhost:8080/user/login seperti berikut:
+
+![11](https://user-images.githubusercontent.com/101863671/174580108-e490af6b-dfdb-441b-9c49-a89a323ce5e7.png)
+
+## Menambahkan Auth Filter
+Selanjutnya membuat filer untuk halaman admin. Buat file baru dengan nama ```Auth.php``` pada direktori ```app/Filters```.
+
+![12 (2)](https://user-images.githubusercontent.com/101863671/174580388-bac8975e-5ec4-4764-9c64-d4e87c73c572.png)
+
+Selanjutnya buka file ```app/Config/Filters.php``` tambahkan kode berikut:
+
+![13 (2)](https://user-images.githubusercontent.com/101863671/174581668-c949a020-4509-4efc-b454-6439f2804bc6.png)
+
+Selanjutnya buka file ```app/Config/Routes.php``` dan sesuaikan kodenya.
+
+![14(3)](https://user-images.githubusercontent.com/101863671/174581984-d6647eb2-5ff7-4029-af62-08cf0c6eec15.png)
+
+## Percobaan Akses Menu Admin
+Buka url dengan alamat http://localhost:8080/admin/artikel ketika alamat tersebut diakses maka, akan dimunculkan halaman login.
+
+![18](https://user-images.githubusercontent.com/101863671/174582414-87c32bb5-7211-419f-b3b8-681169fd2bac.png)
+
+## Fungsi Logout
+Tambahkan method ```logout``` pada Controller User seperti berikut:
+
+![15](https://user-images.githubusercontent.com/101863671/174582648-bb23e03b-7b5f-4bad-b463-6163c001ea82.png)
+
+
+
+
+
+
 
 
 
