@@ -355,6 +355,27 @@ Tambahkan method ```logout``` pada Controller User seperti berikut:
 
 ![15](https://user-images.githubusercontent.com/101863671/174582648-bb23e03b-7b5f-4bad-b463-6163c001ea82.png)
 
+![19(1)](https://user-images.githubusercontent.com/101863671/174584279-baff2494-02b9-4618-80f5-91a9dc8af749.png)
+
+- Hasil setelah menekan tombol ```log out```
+
+![20](https://user-images.githubusercontent.com/101863671/174584570-2263d660-da2e-4a4b-b0bb-5efbdd0a7579.png)
+
+# Pertanyaan dan Tugas
+## Selesaikan programnya sesuai langkah-langkah yang ada. Anda boleh melakukan improvisasi.
+
+Saya sudah menyelesaikan dari awal login hingga log out halaman admin, beserta css nya.
+
+- Route Log out
+
+![17 (2)](https://user-images.githubusercontent.com/101863671/174585440-1429cfa6-00b6-41e0-ad92-593f87970d49.png)
+
+-Userstyle CSS
+
+![9](https://user-images.githubusercontent.com/101863671/174585738-ca417a19-296f-46b9-86dd-31ce98802823.png)
+
+![10](https://user-images.githubusercontent.com/101863671/174585754-2f9ad567-0339-4bee-9ef4-3a16ef17af8b.png)
+
 
 
 
