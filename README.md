@@ -348,14 +348,22 @@ Selanjutnya buka file ```app/Config/Routes.php``` dan sesuaikan kodenya.
 ## Percobaan Akses Menu Admin
 Buka url dengan alamat http://localhost:8080/admin/artikel ketika alamat tersebut diakses maka, akan dimunculkan halaman login.
 
-![18](https://user-images.githubusercontent.com/101863671/174582414-87c32bb5-7211-419f-b3b8-681169fd2bac.png)
+![18](https://user-images.githubusercontent.com/101863671/174696950-3232a4ab-caa5-4a28-acb2-522660e5d28a.png)
+
+- Hasil setelah log in
+
+![21 (2)](https://user-images.githubusercontent.com/101863671/174696850-563258e7-7199-4f42-8b95-cb31112db27b.png)
 
 ## Fungsi Logout
-Tambahkan method ```logout``` pada Controller User seperti berikut:
+- Tambahkan method ```logout``` pada Controller User seperti berikut:
 
 ![15](https://user-images.githubusercontent.com/101863671/174582648-bb23e03b-7b5f-4bad-b463-6163c001ea82.png)
 
-![19(1)](https://user-images.githubusercontent.com/101863671/174584279-baff2494-02b9-4618-80f5-91a9dc8af749.png)
+- Buka file ```admin_header.php``` di direktori ```app\view\template``` untuk menambahkan menu ```logout``` di header admin.
+
+![16 (2)](https://user-images.githubusercontent.com/101863671/174699034-4fe53c2c-ca76-4c45-9b07-b51bc82aed60.png)
+
+![21](https://user-images.githubusercontent.com/101863671/174698364-2709778f-c38e-4e10-afdf-6ebd2eadff03.png)
 
 - Hasil setelah menekan tombol ```log out```
 
@@ -363,14 +371,13 @@ Tambahkan method ```logout``` pada Controller User seperti berikut:
 
 # Pertanyaan dan Tugas
 ## Selesaikan programnya sesuai langkah-langkah yang ada. Anda boleh melakukan improvisasi.
+Saya telah menyelesaikan dari awal login hingga logout halaman admin, disini saya menambahkan Route logout dan css nya.
 
-Saya sudah menyelesaikan dari awal login hingga log out halaman admin, beserta css nya.
-
-- Route Log out
+- Route Logout
 
 ![17 (2)](https://user-images.githubusercontent.com/101863671/174585440-1429cfa6-00b6-41e0-ad92-593f87970d49.png)
 
--Userstyle CSS
+- Userstyle CSS
 
 ![9](https://user-images.githubusercontent.com/101863671/174585738-ca417a19-296f-46b9-86dd-31ce98802823.png)
 
