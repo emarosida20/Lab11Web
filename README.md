@@ -339,7 +339,7 @@ Selanjutnya membuat filer untuk halaman admin. Buat file baru dengan nama ```Aut
 
 Selanjutnya buka file ```app/Config/Filters.php``` tambahkan kode berikut:
 
-![13 (2)](https://user-images.githubusercontent.com/101863671/174581668-c949a020-4509-4efc-b454-6439f2804bc6.png)
+![13(2)](https://user-images.githubusercontent.com/101863671/174753301-36ff0514-d91a-4a2b-8924-0d0f9b2e61f5.png)
 
 Selanjutnya buka file ```app/Config/Routes.php``` dan sesuaikan kodenya.
 
@@ -359,7 +359,7 @@ Buka url dengan alamat http://localhost:8080/admin/artikel ketika alamat tersebu
 
 ![15](https://user-images.githubusercontent.com/101863671/174582648-bb23e03b-7b5f-4bad-b463-6163c001ea82.png)
 
-- Buka file ```admin_header.php``` di direktori ```app\view\template``` untuk menambahkan menu ```logout``` di header admin.
+- Buka file ```admin_header.php``` di direktori ```app/view/template``` untuk menambahkan menu ```logout``` di header admin.
 
 ![16 (2)](https://user-images.githubusercontent.com/101863671/174699034-4fe53c2c-ca76-4c45-9b07-b51bc82aed60.png)
 
