@@ -261,7 +261,7 @@ maka tampilan nya seperti ini
 ![34](https://user-images.githubusercontent.com/101863671/174575838-28d77c10-1b8c-4ea4-9f49-2b87e976ec53.png)
 
 # Pertanyaan dan Tugas
-## Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi.
+## Selesaikan programnya sesuai langkah-langkah yang ada. Anda boleh melakukan improvisasi.
 
 Saya melengkapi file admin_header.php dan admin_footer.php serta CSSnya agar programnya bisa di run.
 
@@ -371,7 +371,7 @@ Buka url dengan alamat http://localhost:8080/admin/artikel ketika alamat tersebu
 
 # Pertanyaan dan Tugas
 ## Selesaikan programnya sesuai langkah-langkah yang ada. Anda boleh melakukan improvisasi.
-Saya telah menyelesaikan dari awal login hingga logout halaman admin, disini saya menambahkan Route logout dan css nya.
+Saya telah menyelesaikan dari awal login hingga logout halaman admin, disini saya menambahkan Route logout dan CSS nya.
 
 - Route Logout
 
