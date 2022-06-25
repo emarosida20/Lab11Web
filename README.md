@@ -383,7 +383,35 @@ Saya telah menyelesaikan dari awal login hingga logout halaman admin, disini say
 
 ![10](https://user-images.githubusercontent.com/101863671/174585754-2f9ad567-0339-4bee-9ef4-3a16ef17af8b.png)
 
+# Praktikum 14: Pagination dan Pencarian
 
+## Langkah-langkah Praktikum
+## Membuat Pagination
+Pagination merupakan proses yang digunakan untuk membatasi tampilan yang panjang dari data yang banyak pada sebuah website. Fungsi pagination adalah memecah
+tampilan menjadi beberapa halaman tergantung banyaknya data yang akan ditampilkanpada setiap halaman.
+
+Pada Codeigniter 4, fungsi pagination sudah tersedia pada Library sehingga cukup mudah menggunakannya.
+
+Untuk membuat pagination, buka Kembali ```Controller Artikel```, kemudian modifikasi kode pada method ```admin_index``` seperti berikut.
+
+![1](https://user-images.githubusercontent.com/101863671/175775950-ed613e64-eeab-4a3e-b82d-bd9a6b8d4a01.png)
+
+Kemudian buka file ```views/artikel/admin_index.php``` dan tambahkan kode berikut dibawah deklarasi tabel data.
+
+![2](https://user-images.githubusercontent.com/101863671/175776023-55d53cc2-89e2-450c-a121-8cb9eb725390.png)
+
+Selanjutnya buka kembali menu daftar artikel, tambahkan data lagi untuk melihat hasilnya.
+
+![3](https://user-images.githubusercontent.com/101863671/175776048-15a3b831-744e-46f3-9183-06933fffc55e.png)
+
+## Membuat Pencarian
+Pencarian data digunakan untuk memfilter data. 
+
+Untuk membuat pencarian data, buka kembali ```Controller Artikel```, pada method ```admin_index``` ubah kodenya seperti berikut
+
+![4 (2)](https://user-images.githubusercontent.com/101863671/175776158-d2d86221-2a14-4f17-86c2-e1544cbc2834.png)
+
+Kemudian buka kembali file ```views/artikel/admin_index.php``` dan tambahkan form pencarian sebelum deklarasi tabel seperti berikut:
 
 
 
